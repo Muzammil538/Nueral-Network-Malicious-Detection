@@ -10,6 +10,8 @@ const Navbar = () => {
       </span>
       <nav className="space-x-4">
         <Link to="/scan/url" className={navBtnStyle}>URL Scan</Link>
+        <Link to="/scan/urllist" className={navBtnStyle}>URL List Scan</Link>
+
       </nav>
     </header>
   );
